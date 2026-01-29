@@ -60,7 +60,7 @@ where `x_i` and `y_i` are the _ith_ components of vectors **X** and **Y**, respe
 ## Usage
 
 ```javascript
-import deuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-deuclidean@esm/index.mjs';
+import deuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-deuclidean@v0.1.0-esm/index.mjs';
 ```
 
 #### deuclidean( N, x, strideX, y, strideY )
@@ -174,7 +174,7 @@ var z = deuclidean.ndarray( 3, x, 2, 1, y, -1, y.length-1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import deuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-deuclidean@esm/index.mjs';
+import deuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-deuclidean@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
